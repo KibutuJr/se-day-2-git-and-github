@@ -1,4 +1,4 @@
-# se-day-2-git-and-github
+---
 
 # Git & GitHub Guide  
 
@@ -74,13 +74,14 @@ A well-written README.md provides essential information for users and contributo
 
 ### Steps to Commit Code  
 
-
+```sh
 git init                     # Initialize a new repository  
 git add .                    # Stage all changes  
 git commit -m "Initial commit" # Commit with a message  
 git branch -M main           # Rename branch to main (optional)  
 git remote add origin <repo-url> # Link to GitHub repo  
 git push -u origin main      # Push to GitHub  
+```
 
 ### Why Are Commits Important?  
 
@@ -98,12 +99,14 @@ Branching allows multiple developers to work on features separately without affe
 
 ### How to Create and Merge Branches  
 
+```sh
 git branch feature-branch   # Create a new branch  
 git checkout feature-branch # Switch to the branch  
 # Make changes and commit  
 git checkout main           # Switch to main branch  
 git merge feature-branch    # Merge changes  
 git branch -d feature-branch # Delete the branch  
+```
 
 ### Why Use Branching?  
 
@@ -148,7 +151,9 @@ A pull request is a way to propose and review changes before merging them into t
 
 ### Example  
 
+```sh
 git clone <repo-url>  # Clone a repository  
+```
 
 ---
 
@@ -189,3 +194,6 @@ git clone <repo-url>  # Clone a repository
 - Use a .gitignore file to exclude unnecessary files  
 
 By following these best practices, teams can ensure smooth collaboration and effective version control on GitHub.  
+
+---
+
